@@ -70,6 +70,7 @@ app.get('/weather',(req,res)=>{
                     temperature: forecastdata.temperature,
                     feelslike: forecastdata.feelslike,
                     location: location,
+                    humidity: forecastdata.humidity,
                     weather: forecastdata.weather
                 }])
                 console.log(location)
