@@ -22,7 +22,7 @@ weatherform.addEventListener('submit',(e)=>{
         }else{
             // console.log(data[0].temperature, data[0].location)
             messageone.textContent = data[0].location
-            messagetwo.textContent = "temperature " + data[0].temperature + "humidity " + data[0].humidity
+            messagetwo.textContent = "temperature " + data[0].temperature + " humidity " + data[0].humidity
         } 
     })
 })
